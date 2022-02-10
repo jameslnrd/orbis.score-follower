@@ -163,27 +163,6 @@ public:
         cout << "Reset all note counters and triggers" << endl;
     }
 
-    /*
-    void dump() {
-        cout << "Score Follower - Note Dump:" << endl;
-        for(auto i=0; i < nbHits.size(); i++)
-            cout << " - Hits for " << i << ": " << nbHits[i] << endl;
-    }
-
-    
-    void dumpTriggers() {
-        if (triggers.empty()) {
-            cout << "No armed triggers currently set" << endl;
-            return;
-        }
-        else for (TriggerListener L : triggers) {
-            cout << "Trigger is waiting for :" << endl;
-            cout << "   - Note :" << L.getNote() << endl;
-            cout << "   - Repeats :" << L.getRepeats() << endl;
-            cout << "   - Action :" << L.actionToString()<< endl;
-        }
-    }
-    */
     
     
     void updateNoteTable(){
